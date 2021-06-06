@@ -12,3 +12,5 @@ pnl = portvalue - cerebro.startcash
 
 print(f'总资金：{round(portvalue, 2)}')
 print(f'净收益： {round(pnl, 2)}')
+
+cerebro.cerebro.plot(style = 'candlestick')
